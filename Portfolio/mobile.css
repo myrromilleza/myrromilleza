@@ -1,0 +1,63 @@
+@media screen and (max-width: 1300px) {
+
+    .redName {
+        font-size: 5rem;
+    }
+
+    #mainName {
+        font-size: 5rem;
+    }
+
+    header img {
+        width: 350px;
+        top: 10%;
+    }
+
+    #description {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .redName {
+        font-size: 3rem;
+    }
+
+    #mainName {
+        font-size: 3rem;
+    }
+
+    header img {
+        width: 300px;
+    }
+
+    #description {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .redName {
+        font-size: 2.3rem;
+    }
+
+    #mainName {
+        font-size: 2.3rem;
+    }
+
+   
+
+    #description {
+        font-size: 1rem;
+    }
+
+    .fab {
+        font-size: 4rem;
+
+    }
+
+}
+
+#awards, #quotes, #contact {
+    margin: 5rem;
+}

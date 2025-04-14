@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myrro Milleza</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="project.css" />
+    <link rel="stylesheet" href="mobile.css">
+    
+    <style>
+        #form-message {
+            margin-top: 1rem;
+            padding: 0.75rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        
+        #form-message.success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        #form-message.error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        #submit:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="fixed-background">
+        <div class="texture"></div>
+    </div>
+
+    <div class="content" style="padding-top: 1rem">
+        <nav>
+            <p>© Code by Myrro Milleza</p>
+            <p id="location">🌏︎ Located in the Philippines</p>
+        </nav>
+    
+        <header>
+            <img src="images/dp.jpg" alt="" srcset="">
+            <img src="images/Myrro.jpg" alt="" srcset="">
+            <img src="images/aerox.jpg" alt="" srcset="">
+            <img src="images/jetski.jpg" alt="" srcset="">
+
+            <div class="name">
+                <h1 class="redName">MYRRO EARL MILLEZA</h1>
+                <h1 class="redName">MYRRO EARL MILLEZA</h1>
+                <h1 id="mainName">MYRRO EARL MILLEZA</h1>
+            </div>
+            
+            <div id="description">
+                <p>Bringing cool ideas to life</p>
+                <p>Enjoying the World</p>
+            </div>
+            
+        </header>
+    
+    </div>
+
+
+    <section id="projects" class="animate-on-scroll">
+        <h1 id="project-bigText" class="animate-on-scroll">CHECK OUT MY WORKS</h1>
+        <div style="display: flex; justify-content: center" class="draw-line is-inview" data-scroll="" data-svg-path-length="430" style="--svg-path-length: 430; opacity: 1;">
+          <svg width="221" height="60" viewBox="0 0 221 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 56.7067C10.8075 50.0844 19.3507 42.7874 28.9444 36.0467C35.008 31.7864 41.1391 27.462 47.9722 23.634C48.0147 23.6102 51.7154 21.1824 50.9722 22.6303C45.2199 33.838 38.9823 45.1194 37.1667 56.874C37.0362 57.7187 36.308 59.9701 38.5556 58.5302C43.1104 55.612 46.4246 51.8503 49.8889 48.4762C56.1685 42.36 62.4203 36.2365 68.8889 30.1917C70.5386 28.6501 72.1643 26.7655 74.1667 25.3403C74.9947 24.751 73.8812 26.8775 73.6111 27.6322C72.076 31.9217 70.8064 36.243 69.8889 40.597C69.4175 42.8339 69 45.0966 69 47.3554C69 47.9451 70.2997 46.4714 70.8889 46.0003C75.2698 42.4977 79.2882 38.8476 83.4722 35.2605C86.3316 32.809 90.2024 28.3232 94.8611 26.8125C96.126 26.4023 95.317 28.5547 95.0556 29.4054C93.8966 33.1774 92.7626 36.9197 92.2222 40.7475C92.0966 41.6376 91.2677 43.968 92.4444 43.4241C95.4019 42.0572 97.717 39.6975 100.056 38.004C105.403 34.1315 110.958 30.3503 116.944 26.8292C117.869 26.2854 120.377 24.864 121.722 24.2864C122.045 24.148 122.774 23.9244 122.889 24.1526C123.728 25.8232 121.832 29.0377 121.389 30.6099C120.504 33.75 119.544 36.9004 119.111 40.0784C118.972 41.1003 118.928 41.4025 120.278 40.5802C124.544 37.9818 128.404 35.139 132.444 32.4166C136.42 29.7384 140.635 26.2831 145.722 24.2864C147.995 23.3943 145.215 27.5528 144.556 29.1378C142.437 34.2287 140.496 39.3786 139.444 44.5951C139.411 44.7634 137.964 48.8108 140.667 47.9409C149.552 45.081 157.912 39.665 165.111 35.662C184.724 24.7569 201.989 12.8155 220 1" stroke="#CE1B1B" stroke-width="2" stroke-linecap="round" style="stroke-dashoffset: 0px;"></path>
+          </svg>
+       </div>
+       
+        <p id="project-para">I've built 60+ projects to my clients and personal use and this is my favorite projects</p>
+
+        <div class="container">
+    
+          <!-- Container for all sliders, and pagination -->
+          <main class="sliders-container">
+              <!-- Here will be injected sliders for images, numbers, titles and links -->
+      
+              <!-- Simple pagination for the slider -->
+              <ul class="pagination">
+                  <li class="pagination__item"><a class="pagination__button"></a></li>
+                  <li class="pagination__item"><a class="pagination__button"></a></li>
+                  <li class="pagination__item"><a class="pagination__button"></a></li>
+                  <li class="pagination__item"><a class="pagination__button"></a></li>
+                  <li class="pagination__item"><a class="pagination__button"></a></li>
+              </ul>
+          </main>
+          
+      </div>
+      
+        
+    </section>
+
+
+    <section id="skills" class="animate-on-scroll">
+        <h1 id="skill-bigText" class="animate-on-scroll">SKILLS</h1>
+        
+        <div class="scroll" style="--time:20s">
+            <div>
+                <span>HTML</span>
+                <span>CodePen</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Java</span>
+                <span>Python</span>
+                <span>PHP</span>
+                <span>Photoshop</span>
+                <span>Premiere Pro</span>
+                <span>Figma</span>
+                <span>Bootstrap</span>
+                <span>MySql</span>
+                <span>MariaDB</span>
+                <span>Wordpress</span>
+            </div>
+            <div>
+                <span>HTML</span>
+                <span>CodePen</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Java</span>
+                <span>Python</span>
+                <span>PHP</span>
+                <span>Photoshop</span>
+                <span>Premiere Pro</span>
+                <span>Figma</span>
+                <span>Bootstrap</span>
+                <span>MySql</span>
+                <span>MariaDB</span>
+                <span>Wordpress</span>
+            </div>
+        </div>
+        <div class="scroll" style="--time:30s">
+            <div>
+                <span>HTML</span>
+                <span>CodePen</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Java</span>
+                <span>Python</span>
+                <span>PHP</span>
+                <span>Photoshop</span>
+                <span>Premiere Pro</span>
+                <span>Figma</span>
+                <span>Bootstrap</span>
+                <span>MySql</span>
+                <span>MariaDB</span>
+                <span>Wordpress</span>
+            </div>
+            <div>
+                <span>HTML</span>
+                <span>CodePen</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Java</span>
+                <span>Python</span>
+                <span>PHP</span>
+                <span>Photoshop</span>
+                <span>Premiere Pro</span>
+                <span>Figma</span>
+                <span>Bootstrap</span>
+                <span>MySql</span>
+                <span>MariaDB</span>
+                <span>Wordpress</span>
+            </div>
+        </div>
+        <div class="scroll" style="--time:25s">
+            <div>
+                <span>HTML</span>
+                <span>CodePen</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Java</span>
+                <span>Python</span>
+                <span>PHP</span>
+                <span>Photoshop</span>
+                <span>Premiere Pro</span>
+                <span>Figma</span>
+                <span>Bootstrap</span>
+                <span>MySql</span>
+                <span>MariaDB</span>
+                <span>Wordpress</span>
+            </div>
+            <div>
+                <span>HTML</span>
+                <span>CodePen</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Java</span>
+                <span>Python</span>
+                <span>PHP</span>
+                <span>Photoshop</span>
+                <span>Premiere Pro</span>
+                <span>Figma</span>
+                <span>Bootstrap</span>
+                <span>MySql</span>
+                <span>MariaDB</span>
+                <span>Wordpress</span>
+            </div>
+        </div>
+        <div class="scroll" style="--time:40s">
+            <div>
+                <span>HTML</span>
+                <span>CodePen</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Java</span>
+                <span>Python</span>
+                <span>PHP</span>
+                <span>Photoshop</span>
+                <span>Premiere Pro</span>
+                <span>Figma</span>
+                <span>Bootstrap</span>
+                <span>MySql</span>
+                <span>MariaDB</span>
+                <span>Wordpress</span>
+            </div>
+            <div>
+                <span>HTML</span>
+                <span>CodePen</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Java</span>
+                <span>Python</span>
+                <span>PHP</span>
+                <span>Photoshop</span>
+                <span>Premiere Pro</span>
+                <span>Figma</span>
+                <span>Bootstrap</span>
+                <span>MySql</span>
+                <span>MariaDB</span>
+                <span>Wordpress</span>
+            </div>
+        </div>
+    
+         <div class="marquee">
+            <ul class="marquee-content">
+                <li><i class="fab fa-html5"></i></li>
+                <li><i class="fab fa-codepen"></i></li>
+                <li><i class="fab fa-css3"></i></li>
+                <li><i class="fab fa-js"></i></li>
+                <li><i class="fab fa-java"></i></li>
+                <li><i class="fab fa-python"></i></li>
+                <li><i class="fab fa-php"></i></li>
+                <li><i class="fab fa-figma"></i></li>
+                <li><i class="fab fa-bootstrap"></i></li>
+                <li><i class="fab fa-wordpress"></i></li>
+            </ul>
+        </div>
+    </section>
+
+   
+
+    <section id="awards" class="animate-on-scroll">
+    <div class="container my-5">
+        <h2 class="text-center mb-4 awards-bigText animate-on-scroll">AWARDS &<br>COMPETITIONS</h2>
+        <div style="display: flex; justify-content: center;" class="draw-line is-inview" data-scroll="" data-svg-path-length="430" style="--svg-path-length: 430; opacity: 1;">
+            <svg width="221" height="60" viewBox="0 0 221 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 56.7067C10.8075 50.0844 19.3507 42.7874 28.9444 36.0467C35.008 31.7864 41.1391 27.462 47.9722 23.634C48.0147 23.6102 51.7154 21.1824 50.9722 22.6303C45.2199 33.838 38.9823 45.1194 37.1667 56.874C37.0362 57.7187 36.308 59.9701 38.5556 58.5302C43.1104 55.612 46.4246 51.8503 49.8889 48.4762C56.1685 42.36 62.4203 36.2365 68.8889 30.1917C70.5386 28.6501 72.1643 26.7655 74.1667 25.3403C74.9947 24.751 73.8812 26.8775 73.6111 27.6322C72.076 31.9217 70.8064 36.243 69.8889 40.597C69.4175 42.8339 69 45.0966 69 47.3554C69 47.9451 70.2997 46.4714 70.8889 46.0003C75.2698 42.4977 79.2882 38.8476 83.4722 35.2605C86.3316 32.809 90.2024 28.3232 94.8611 26.8125C96.126 26.4023 95.317 28.5547 95.0556 29.4054C93.8966 33.1774 92.7626 36.9197 92.2222 40.7475C92.0966 41.6376 91.2677 43.968 92.4444 43.4241C95.4019 42.0572 97.717 39.6975 100.056 38.004C105.403 34.1315 110.958 30.3503 116.944 26.8292C117.869 26.2854 120.377 24.864 121.722 24.2864C122.045 24.148 122.774 23.9244 122.889 24.1526C123.728 25.8232 121.832 29.0377 121.389 30.6099C120.504 33.75 119.544 36.9004 119.111 40.0784C118.972 41.1003 118.928 41.4025 120.278 40.5802C124.544 37.9818 128.404 35.139 132.444 32.4166C136.42 29.7384 140.635 26.2831 145.722 24.2864C147.995 23.3943 145.215 27.5528 144.556 29.1378C142.437 34.2287 140.496 39.3786 139.444 44.5951C139.411 44.7634 137.964 48.8108 140.667 47.9409C149.552 45.081 157.912 39.665 165.111 35.662C184.724 24.7569 201.989 12.8155 220 1" stroke="#CE1B1B" stroke-width="2" stroke-linecap="round" style="stroke-dashoffset: 0px;"></path>
+            </svg>
+         </div>
+        <div class="timeline">
+      
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="images/plp.jpg" alt="plp">
+            </div>
+            <p class="timeline-date">November 2024</p>
+            <h5 class="timeline-title">PLP CCS: Tech Odyssey</h5>
+            <p class="timeline-description">Java Programming Champion</p>
+          </div>
+      
+          <!-- Timeline Item 2 -->
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                  <img src="images/sagad-removebg-preview.png" alt="sagad">
+                </div>
+                <p class="timeline-date">June 2024</p>
+                <h5 class="timeline-title">Barangay Sagad Information System</h5>
+                <p class="timeline-description">Develop a barangay information system for barangay sagad that sample text</p>
+            </div>
+          
+      
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="images/isite.jpg" alt="isite">
+            </div>
+            <p class="timeline-date">April 2024</p>
+            <h5 class="timeline-title">National ISITE Olympics</h5>
+            <p class="timeline-description">Rank 17 National</p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                  <img src="images/itolymp.jpg" alt="itolym">
+                </div>
+                <p class="timeline-date">2023 - 2024</p>
+                <h5 class="timeline-title">National IT Olympics</h5>
+                <p class="timeline-description">Pamantasan ng Lungsod ng Pasig Java Programming Representative</p>
+                </div>
+            
+      
+          <!-- Timeline Item 4 -->
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="images/plp.jpg" alt="PLP">
+            </div>
+            <p class="timeline-date">November 2023</p>
+            <h5 class="timeline-title">PLP Java Programming Competition</h5>
+            <p class="timeline-description">Champion</p>
+          </div>
+      
+          <!-- Timeline Item 5 -->
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="images/comsoc.jpg" alt="comsoc">
+            </div>
+            <p class="timeline-date">February 2023</p>
+            <h5 class="timeline-title">CCS Academical Competition</h5>
+            <p class="timeline-description">Champion (Web Design)</p>
+          </div>
+      
+          <!-- Timeline Item 6 -->
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="images/rhs.jpg" alt="rhs">
+            </div>
+            <p class="timeline-date">June 2022</p>
+            <h5 class="timeline-title">Rizal High School Research</h5>
+            <p class="timeline-description">Best System</p>
+          </div>
+      
+          <!-- Timeline Item 7 -->
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="images/cssbattle.png" alt="css battle">
+            </div>
+            <p class="timeline-date">Present</p>
+            <h5 class="timeline-title">CSS Battle</h5>
+            <p class="timeline-description">Rank 800 over 300,000+ users</p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon" style="background-color: black;">
+              <img src="images/leetcode.png" alt="leetcode">
+            </div>
+            <p class="timeline-date">2024</p>
+            <h5 class="timeline-title">Leetcode</h5>
+            <p class="timeline-description">Top 6.9% LeetCoders</p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="images/plp.jpg" alt="plp">
+            </div>
+            <p class="timeline-date">2022 - Present</p>
+            <h5 class="timeline-title">Pamantasan Lungsod Ng Pasig</h5>
+            <p class="timeline-description">Consistent Dean's Lister</p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="images/pasig.png" alt="pasig">
+            </div>
+            <p class="timeline-date">2020 - Present</p>
+            <h5 class="timeline-title">Pasig City</h5>
+            <p class="timeline-description">Scholarship</p>
+          </div>
+
+          <div class="timeline-item">
+            
+            <p class="timeline-date" style="color: transparent;">a</p>
+            <h5 class="timeline-title"style="color: transparent;">a</h5>
+            <p class="timeline-description"style="color: transparent;">a </p>
+          </div>
+      
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="quotes" class="animate-on-scroll">
+        <h1 class="animate-on-scroll">Practice like you never won. <br>Perform like you never lost.</h1>
+        
+    </section>
+
+    <section id="contact" class="animate-on-scroll">
+
+        <div class="flex">
+            <form action="send_email.php" method="POST" class="animate-on-scroll" id="contactForm">
+                <h1 id="contact-bigText" class="animate-on-scroll">LET'S BUILD SOMETHING GREAT</h1>
+                <div class="draw-line is-inview" data-scroll="" data-svg-path-length="430" style="--svg-path-length: 430; opacity: 1;">
+                    <svg width="221" height="60" viewBox="0 0 221 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 56.7067C10.8075 50.0844 19.3507 42.7874 28.9444 36.0467C35.008 31.7864 41.1391 27.462 47.9722 23.634C48.0147 23.6102 51.7154 21.1824 50.9722 22.6303C45.2199 33.838 38.9823 45.1194 37.1667 56.874C37.0362 57.7187 36.308 59.9701 38.5556 58.5302C43.1104 55.612 46.4246 51.8503 49.8889 48.4762C56.1685 42.36 62.4203 36.2365 68.8889 30.1917C70.5386 28.6501 72.1643 26.7655 74.1667 25.3403C74.9947 24.751 73.8812 26.8775 73.6111 27.6322C72.076 31.9217 70.8064 36.243 69.8889 40.597C69.4175 42.8339 69 45.0966 69 47.3554C69 47.9451 70.2997 46.4714 70.8889 46.0003C75.2698 42.4977 79.2882 38.8476 83.4722 35.2605C86.3316 32.809 90.2024 28.3232 94.8611 26.8125C96.126 26.4023 95.317 28.5547 95.0556 29.4054C93.8966 33.1774 92.7626 36.9197 92.2222 40.7475C92.0966 41.6376 91.2677 43.968 92.4444 43.4241C95.4019 42.0572 97.717 39.6975 100.056 38.004C105.403 34.1315 110.958 30.3503 116.944 26.8292C117.869 26.2854 120.377 24.864 121.722 24.2864C122.045 24.148 122.774 23.9244 122.889 24.1526C123.728 25.8232 121.832 29.0377 121.389 30.6099C120.504 33.75 119.544 36.9004 119.111 40.0784C118.972 41.1003 118.928 41.4025 120.278 40.5802C124.544 37.9818 128.404 35.139 132.444 32.4166C136.42 29.7384 140.635 26.2831 145.722 24.2864C147.995 23.3943 145.215 27.5528 144.556 29.1378C142.437 34.2287 140.496 39.3786 139.444 44.5951C139.411 44.7634 137.964 48.8108 140.667 47.9409C149.552 45.081 157.912 39.665 165.111 35.662C184.724 24.7569 201.989 12.8155 220 1" stroke="#CE1B1B" stroke-width="2" stroke-linecap="round" style="stroke-dashoffset: 0px;"></path>
+                    </svg>
+                 </div>
+                <p class="contact-heading">Feel free to send me a private message on <a href="https://www.facebook.com/brunomyrss/" class="contact-link">myrroearl@facebook.com</a></p>
+                <p class="alternatively">Alternatively, you can also drop-in a mail here!</p>
+                <label for="name">NAME</label>
+                <input type="text" id="name" name="name" placeholder="" required>
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" placeholder="" required>
+                <label for="message">MESSAGE</label>
+                <textarea id="message" name="message" rows="4" placeholder="" required></textarea>
+                <button type="submit" id="submit">SEND</button>
+                <div id="form-message"></div>
+                <p class="cookie">COOKIE POLICY</p>
+                <p class="copyright">&#169 Code by Myrro Earl V. Milleza.</p>
+            </form>
+        </div>
+    </section>
+<!--     
+    <div class=containers>
+      <div class=contents style=display:block;width:1000px;height:562px>
+        <div class=container-full>
+          <div class="animated hue"></div><img class=backgroundImage src="https://drive.google.com/thumbnail?id=1_ZMV_LcmUXLsRokuz6WXGyN9zVCGfAHp&sz=w1920"> <img class=boyImage src="https://drive.google.com/thumbnail?id=1eGqJskQQgBJ67myGekmo4YfIVI3lfDTm&sz=w1920">
+          <div class=containers>
+            <div class=cube>
+              <div class="face top"></div>
+              <div class="face bottom"></div>
+              <div class="face left text"></div>
+              <div class="face right text"></div>
+              <div class="face front"></div>
+              <div class="face back text"></div>
+            </div>
+          </div>
+          <div class=container-reflect>
+            <div class=cube>
+              <div class="face top"></div>
+              <div class="face bottom"></div>
+              <div class="face left text"></div>
+              <div class="face right text"></div>
+              <div class="face front"></div>
+              <div class="face back text"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    
+
+</body>
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="app.js"></script>
+<script src="snow.js"></script>
+<script src="slider.js"></script>
+<script src="scroll.js"></script>
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const formData = new FormData(this);
+        const submitButton = document.getElementById('submit');
+        const messageDiv = document.getElementById('form-message');
+        
+        // Disable submit button and show loading state
+        submitButton.disabled = true;
+        submitButton.textContent = 'Sending...';
+        messageDiv.textContent = '';
+        messageDiv.className = '';
+        
+        fetch('send_email.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                messageDiv.textContent = 'Message sent successfully!';
+                messageDiv.className = 'success';
+                this.reset();
+            } else {
+                messageDiv.textContent = data.message || 'Failed to send message. Please try again.';
+                messageDiv.className = 'error';
+            }
+        })
+        .catch(error => {
+            messageDiv.textContent = 'An error occurred. Please try again later.';
+            messageDiv.className = 'error';
+            console.error('Error:', error);
+        })
+        .finally(() => {
+            submitButton.disabled = false;
+            submitButton.textContent = 'SEND';
+        });
+    });
+</script>
+</html>
